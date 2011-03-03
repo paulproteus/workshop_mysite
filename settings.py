@@ -1,4 +1,4 @@
-# Django settings for mysite project.
+# Django settings for workshop_mysite project.
 import os
 
 THIS_DIR=os.path.join(os.path.dirname(__file__))
@@ -78,7 +78,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'mysite.urls'
+ROOT_URLCONF = 'workshop_mysite.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
