@@ -1,0 +1,22 @@
+This is a git repository you can fork if you are creating a
+Django website on alwaysdata.com.
+
+I ran just a few commands to create it. You can see them from
+"git log".
+
+To use:
+
+* Fork this into your own Github account
+
+* Clone your new Github repository to your own computer
+
+* Also clone the Github repository to alwaysdata.com
+
+* Make changes on your own computer, and push to Github.
+
+* When you're ready to deploy:
+
+ ssh yourusername@ssh.alwaysdata.com
+ cd mysite
+ git pull
+
